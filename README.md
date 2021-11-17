@@ -12,5 +12,5 @@ As part of this capstone project, we will build an ETL Pipeline as part of data 
 ## Steps and important links:-
 ### Step - 1: Understanding Problem Statement and The Data given:
 Initially let's look at the data provided to us in the Problem Statement. After that we will make an approach to achieve the goal. The data provided is as follows:-
-#### All the Data_Sets are present here:
+#### a) All the Data_Sets are present here:
    [Data_Sets](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Project/Data_sets)
