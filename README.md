@@ -17,3 +17,6 @@ Initially let's look at the data provided to us in the Problem Statement. After 
  
 #### b) Data dicitionary:-
    [Data_Dicitionary](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Data%20Dicitionary)
+  
+#### c) Data Model:-
+  [Data Model](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/blob/main/Data%20Dicitionary/DataModel.PNG)
