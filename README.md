@@ -20,3 +20,6 @@ Initially let's look at the data provided to us in the Problem Statement. After 
   
 #### c) Data Model:-
   [Data Model](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/blob/main/Data%20Dicitionary/DataModel.PNG)
+  
+### Step - 2: Creating ETL Pipeline:-
+Once we have understood the Problem Statement and the given data, the next step will be to create a Pipeline to Process and Transform the data.
