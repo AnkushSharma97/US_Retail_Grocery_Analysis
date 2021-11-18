@@ -1,6 +1,6 @@
 # US_Retail_Grocery_Analysis
 ## Introduction:-
-This project is regarding the Retail Grocery Industry  data Analysis. It includes data processing using SPARK SQL to process the data present in Grocery's Data Lake. After processing the data we will use it for gaining insights and strategic business decision making so as to gain an edge over the competitors.
+This project is regarding the Data Processing and Data Analysis of one of the largest US Retail Grocery Industry  . It includes data processing using SPARK SQL to process the data present in Grocery's Data Lake. After processing the data we will use it for gaining insights and strategic business decision making so as to gain an edge over the competitors.
 
 ## Problem Statement:-
 The retail grocery industry in the United States faces a precarious economic environment. Due primarily to competition from warehouse clubs, supercentres, and e-commerce, retail grocery sales have underperformed the U.S. retail sector and the overall U.S. economy, and employment growth in the industry has been stagnant. Yet, a large proportion of consumers maintain a strong preference for shopping at retail grocery stores, and total grocery industry sales and employment still exceed sales and employment at warehouse clubs/super-centres and e-commerce retailers. To compete in this setting, many retail grocers are turning to third-party online grocery delivery services offering online shopping and same-day grocery delivery, the largest of which is the current retail store.
@@ -14,6 +14,7 @@ As part of this capstone project, we will build an ETL Pipeline as part of data 
 Initially let's look at the data provided to us in the Problem Statement. After that we will make an approach to achieve the goal. The data provided is as follows:-
 #### a) All the Data_Sets are present here:
    [Data_Sets](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Project/Data_sets)
+   All the datasets are in csv format.
  
 #### b) Data dicitionary:-
    [Data_Dicitionary](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Data%20Dicitionary)
@@ -25,3 +26,10 @@ Initially let's look at the data provided to us in the Problem Statement. After 
 Once we have understood the Problem Statement and the given data, the next step will be to create a Pipeline to Process and Transform the data.
 #### Code:-
 [ETL PipeLine Using Spark SQL](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/blob/main/Project/Retail_store_etl_pipeline.ipynb)
+
+##### Note:- 
+From above code please modify all the paths as per your data locations.
+
+
+
+
