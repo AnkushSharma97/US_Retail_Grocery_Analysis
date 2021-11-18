@@ -10,6 +10,9 @@ One of the retail company and its team came up with a business problem in which 
 As part of this capstone project, we will build an ETL Pipeline as part of data engineering solution. We will clean the data, do some preprocessing on it as per the business requirement and finally we will load the data to destination (which is a datalake). In the end we will also do some analysis on the data which we have cleaned and saved in the datalake to see how it can be helpful for the business.
 
 ## Steps and important links:-
+
+## A) ETL/ELT part:-
+
 ### Step - 1: Understanding Problem Statement and The Data given:
 Initially let's look at the data provided to us in the Problem Statement. After that we will make an approach to achieve the goal. The data provided is as follows:-
 #### 1.a) All the Data_Sets are present here:
@@ -45,6 +48,8 @@ Analysis purposes by the respective teams.
 ##### Note:-
 The final processed data can be found at this location in this project:- [Final_Processed_Data](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Project/Data_sets/output)
 
+## B) Visualization part:-
+Once we have cleaned the data now we will use that data for performing various analayis. 
 
 
 
