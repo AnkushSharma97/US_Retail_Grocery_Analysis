@@ -12,23 +12,40 @@ As part of this capstone project, we will build an ETL Pipeline as part of data 
 ## Steps and important links:-
 ### Step - 1: Understanding Problem Statement and The Data given:
 Initially let's look at the data provided to us in the Problem Statement. After that we will make an approach to achieve the goal. The data provided is as follows:-
-#### a) All the Data_Sets are present here:
+#### 1.a) All the Data_Sets are present here:
    [Data_Sets](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Project/Data_sets)
    All the datasets are in csv format.
  
-#### b) Data dicitionary:-
+#### 1.b) Data dicitionary:-
    [Data_Dicitionary](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Data%20Dicitionary)
   
-#### c) Data Model:-
+#### 1.c) Data Model:-
   [Data Model](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/blob/main/Data%20Dicitionary/DataModel.PNG)
   
 ### Step - 2: Creating ETL Pipeline:-
 Once we have understood the Problem Statement and the given data, the next step will be to create a Pipeline to Process and Transform the data.
+##### Note:- 
+From below code please modify all the paths as per your data locations.
+
 #### Code:-
 [ETL PipeLine Using Spark SQL](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/blob/main/Project/Retail_store_etl_pipeline.ipynb)
 
-##### Note:- 
-From above code please modify all the paths as per your data locations.
+#### 2.a) Extracting the data- Loading  unprocessed data from data lake:-
+Firstly we will create a spark session and after that we will load all the required data from the data lake for data cleaning and  processing purposes.
+All the required data sets can be found in the link already shared above.
+
+#### 2.b) Transforming the data:- Doing all cleansing, processing and aggregations of the data as per business requirements:-
+Once the extraction part is done then after that we will start processing the data. 
+After analysing the data in step ! wwe came to know that there are too much noises in various files. So in this phase we will remove all those noises and clean the data.
+Once data is cleaned, we will aggregate it using Spark SQl as per business requirements.
+
+#### 2.c) Loading cleaned data back to the the data to Datalake:-
+Once we are done with all required data processing, the final step will be to right all the data back tp specified location in the data lake so that it can be used for
+Analysis purposes by the respective teams.
+##### Note:-
+The final processed data can be found at this location in this project:- [Final_Processed_Data](https://github.com/AnkushSharma97/US_Retail_Grocery_Analysis/tree/main/Project/Data_sets/output)
+
+
 
 
 
